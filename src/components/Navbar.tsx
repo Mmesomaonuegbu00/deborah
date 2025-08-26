@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <header className="w-full z-50 fixed top-0 left-0 text-sm">
       {/* Top Strip */}
-      <div className="bg-emerald-800 text-emerald-100 px-4 py-1.5 lg:py-3 flex justify-end gap-4 items-center border-b border-gray-200 text-xs md:text-sm">
+      <div className="bg-emerald-800 text-emerald-100 px-4 py-2.5 lg:py-3 flex justify-end gap-4 items-center border-b border-gray-200 text-xs md:text-sm">
         <div className="flex justify-end gap-2 capitalize">
           <div className="flex flex-row items-center gap-2 lg:gap-4 text-white text-[15px]">
             <a href="tel:+234 816 782 4422" className="flex items-center gap-2 hover:text-emerald-100">
