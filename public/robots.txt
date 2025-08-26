@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://deborahonuegbu.vercel.app/sitemap.xml

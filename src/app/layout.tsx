@@ -25,21 +25,21 @@ export const metadata: Metadata = {
     "African health research",
   ],
   authors: [{ name: "Deborah Onuegbu" }],
-  metadataBase: new URL("https://yourdomain.com"), // replace with your actual domain
+  metadataBase: new URL("https://deborahonuegbu.vercel.app"),
   alternates: {
-    canonical: "https://yourdomain.com",
+    canonical: "https://deborahonuegbu.vercel.app",
   },
   openGraph: {
     title: "Deborah Onuegbu | Public Health Advocate & Health Communicator",
     description:
       "Passionate about advancing public health in Africa through youth advocacy, health communication, and digital health innovation.",
-    url: "https://yourdomain.com",
+    url: "https://deborahonuegbu.vercel.app",
     siteName: "Deborah Onuegbu",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://yourdomain.com/og-image.jpg", // create an OG image (1200x630)
+        url: "https://deborahonuegbu.vercel.app/og-image.jpg", // create an OG image (1200x630)
         width: 1200,
         height: 630,
         alt: "Deborah Onuegbu Public Health",
@@ -51,16 +51,20 @@ export const metadata: Metadata = {
     title: "Deborah Onuegbu | Public Health Advocate & Health Communicator",
     description:
       "Public health practitioner with focus on youth advocacy, digital health research, and environmental health.",
-    images: ["https://yourdomain.com/og-image.jpg"],
+    images: ["https://deborahonuegbu.vercel.app/og-image.jpg"],
     creator: "@yourtwitterhandle", // optional
   },
-icons: {
-  icon: "/logo.png",        // main favicon/logo
-  shortcut: "/logo.png",    // shortcut version
-  apple: "/logo.png",       // apple touch icon
-},
-
-  themeColor: "#065f46", // matches your emerald/green brand
+  icons: {
+    icon: "/logo.png",        // main favicon/logo
+    shortcut: "/logo.png",    // shortcut version
+    apple: "/logo.png",       // apple touch icon
+  },
+  themeColor: "#065f46",
+  
+  // ✅ Google Search Console verification
+  verification: {
+    google: "caSW-Q7ihepjmH4L2ws3vqSRWG5HiHZzy9u_h_f6W1A",
+  },
 };
 
 export default function RootLayout({
