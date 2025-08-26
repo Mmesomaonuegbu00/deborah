@@ -61,10 +61,10 @@ export const metadata: Metadata = {
   },
   themeColor: "#065f46",
   
-  // ✅ Google Search Console verification
-  verification: {
-    google: "caSW-Q7ihepjmH4L2ws3vqSRWG5HiHZzy9u_h_f6W1A",
-  },
+  // // ✅ Google Search Console verification
+  // verification: {
+  //   google: "caSW-Q7ihepjmH4L2ws3vqSRWG5HiHZzy9u_h_f6W1A",
+  // },
 };
 
 export default function RootLayout({
