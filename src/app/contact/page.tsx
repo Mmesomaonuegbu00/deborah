@@ -48,7 +48,7 @@ export default function ContactPage() {
         className="relative h-[250px] md:h-[300px] bg-cover bg-center bg-no-repeat flex items-center justify-center text-center"
         style={{ backgroundImage: "url('/d8.jpg')" }}
       >
-        <div className="absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
+        <div className="absolute inset-0 bg-black/40 backdrop-blur-xs"></div>
         <div className="relative z-10 px-4 pt-10">
           <h1 className="text-xl md:text-4xl font-bold text-white mb-4">
             Contact Me
