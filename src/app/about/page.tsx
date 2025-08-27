@@ -123,10 +123,10 @@ const AboutHero = () => {
               Download CV
             </a>
             <a
-              href="#certifications"
+              href="/about"
               className="bg-white border border-emerald-700 text-nowrap text-emerald-700 px-3 lg:px-6 py-2 text-sm rounded-2xl hover:bg-emerald-50 transition"
             >
-              See My Certifications
+              See My works
             </a>
           </div>
 

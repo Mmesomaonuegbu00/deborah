@@ -1,5 +1,6 @@
+import Link from 'next/link'
 import React from 'react'
-import {  FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -17,11 +18,11 @@ const Footer = () => {
         {/* Quick Links */}
         <div>
           <h4 className="text-xl font-semibold mb-4 text-white">Explore</h4>
-          <ul className="space-y-2 text-sm text-emerald-100">
-            <li><a href="#about" className="hover:text-white transition">About</a></li>
-            <li><a href="#services" className="hover:text-white transition">Services</a></li>
-            <li><a href="#projects" className="hover:text-white transition">Projects</a></li>
-            <li><a href="#contact" className="hover:text-white transition">Contact</a></li>
+          <ul className="space-y-2 grid text-sm text-emerald-100">
+            <Link href="/" className="hover:text-emerald-600">home</Link>
+            <Link href="/about" className="hover:text-emerald-600">about</Link>
+            <Link href="/projects" className="hover:text-emerald-600">projects & blog</Link>
+            <Link href="/contact" className="hover:text-emerald-600">contact</Link>
           </ul>
         </div>
 

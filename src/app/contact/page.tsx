@@ -125,7 +125,7 @@ export default function ContactPage() {
               </li>
               <li className="flex items-center gap-3">
                 <FaMapMarkerAlt className="text-emerald-600" />
-                <span>Irri, Delta State, Nigeria</span>
+                <span>Asaba Delta State, Nigeria</span>
               </li>
             </ul>
           </div>

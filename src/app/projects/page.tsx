@@ -159,7 +159,7 @@ const ProjectsBlogsPage = () => {
                     </p>
                     <a
                         href="/contact"
-                        className="inline-block bg-emerald-700 text-white px-6 py-3 rounded-lg hover:bg-emerald-800 transition"
+                        className="inline-block bg-emerald-700 text-white px-6 py-2 rounded-lg hover:bg-emerald-800 transition"
                     >
                         Partner with Me
                     </a>

@@ -38,7 +38,7 @@ export default function Navbar() {
 
 
             <a
-              href="https://www.instagram.com/_deborah_o?igsh=bnJkNjZuc29zeDR2"
+              href="https://x.com/Deborahonuegbu?t=4srJ5Nphp6m9mSLVUcQxwQ&s=09"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:text-emerald-100"
